@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/colorWhite"
+    android:descendantFocusability="blocksDescendants"
     android:orientation="horizontal"
     android:padding="5dp">
 
@@ -24,7 +23,6 @@
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/img_check"
         android:paddingLeft="10dp"
-        android:text="Office"
         android:paddingTop="5dp"
         android:textColor="@color/colorAccent"
         android:textSize="15dp" />
@@ -36,7 +34,6 @@
         android:layout_below="@+id/txt_task"
         android:layout_toRightOf="@+id/img_check"
         android:paddingLeft="10dp"
-        android:text="Office"
         android:textColor="#000"
         android:textSize="13dp" />
 
